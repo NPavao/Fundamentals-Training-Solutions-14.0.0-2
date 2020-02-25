@@ -1,0 +1,20 @@
+/hst:hst/hst:configurations/myproject/hst:workspace/hst:pages/landing-page-landingpage:
+  jcr:primaryType: hst:component
+  hst:lastmodified: 2020-02-24T19:14:23.383-06:00
+  hst:referencecomponent: hst:abstractpages/base
+  /main:
+    jcr:primaryType: hst:component
+    hst:template: landingpage-main
+    /container:
+      jcr:primaryType: hst:containercomponent
+      hst:label: Landing Page Main
+      hst:lastmodified: 2020-02-24T19:14:43.489-06:00
+      hst:xtype: hst.vbox
+      /banner:
+        jcr:primaryType: hst:containeritemcomponent
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+        hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+        hst:label: Banner
+        hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+        hst:parametervalues: [banners/banner1, 'webfile:/freemarker/hstdefault/essentials-banner/without-description.ftl']
+        hst:template: essentials-banner
