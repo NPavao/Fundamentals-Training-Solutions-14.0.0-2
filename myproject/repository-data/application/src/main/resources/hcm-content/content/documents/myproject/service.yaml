@@ -1,0 +1,71 @@
+/content/documents/myproject/service:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: d6fdb4d6-ed49-4988-b543-4d9a26a99f28
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 35e60df0-eff2-435c-bda8-57429129559d
+  hippotranslation:locale: en
+  /about-us:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: ccef84ff-59aa-46e4-981b-a7e1c19a3973
+    hippo:name: About Us
+    hippo:versionHistory: 69fe6ea5-bb32-40d7-9485-7bef551d9a55
+    /about-us[1]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b5837e24-b6e0-47b4-abdf-9e060a334f08
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-02-24T18:04:49.031-06:00
+      hippostdpubwf:lastModificationDate: 2020-02-24T18:04:49.032-06:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 3ec10b50-f918-46d0-9910-ba5a8d89f1b7
+      hippotranslation:locale: en
+      myproject:introduction: About Us Introduction Text
+      myproject:publicationdate: 2020-02-20T20:20:00-06:00
+      myproject:title: About Us
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>We are so&nbsp;<strong>GREAT!</strong></p>
+    /about-us[2]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 201fd188-fb06-4c2f-b382-779445d64ac8
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-02-24T18:04:49.031-06:00
+      hippostdpubwf:lastModificationDate: 2020-02-24T18:05:36.444-06:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 3ec10b50-f918-46d0-9910-ba5a8d89f1b7
+      hippotranslation:locale: en
+      myproject:introduction: About Us Introduction Text
+      myproject:publicationdate: 2020-02-20T20:20:00-06:00
+      myproject:title: About Us
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>We are so&nbsp;<strong>GREAT!</strong></p>
+    /about-us[3]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d6d80a83-d4d1-42f7-8c51-b927a6f24963
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-02-24T18:04:49.031-06:00
+      hippostdpubwf:lastModificationDate: 2020-02-24T18:05:36.444-06:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2020-02-24T18:05:38.731-06:00
+      hippotranslation:id: 3ec10b50-f918-46d0-9910-ba5a8d89f1b7
+      hippotranslation:locale: en
+      myproject:introduction: About Us Introduction Text
+      myproject:publicationdate: 2020-02-20T20:20:00-06:00
+      myproject:title: About Us
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>We are so&nbsp;<strong>GREAT!</strong></p>
