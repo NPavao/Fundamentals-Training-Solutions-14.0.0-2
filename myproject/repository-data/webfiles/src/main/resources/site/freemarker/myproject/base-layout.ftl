@@ -38,7 +38,7 @@
       <script type="text/javascript" src="<@hst.webfile path=file />"></script>
     </#list>
 
-    <@hst.headContributions xhtml=true/>
+    <@hst.headContributions categoryExcludes="htmlBodyEnd" xhtml=true/>
 
 </head>
 <body class="bgpattern-neutral">
@@ -85,7 +85,7 @@
 
                     <!-- Logo -->
                     <div class="col-xs-2 logo">
-                <@hst.webfile path="images/gogreenlogo2.png" var="link"/>
+                    <@hst.webfile path="images/gogreenlogo2.png" var="link"/>
                         <a href="index.html"><img src="${link}" alt="" height="107"/></a>
                     </div>
                     <!-- //Logo// -->
@@ -135,7 +135,7 @@
             </div>
         </div>
         <div>
-            <@hst.include ref="main"/>
+          <@hst.include ref="main"/>
         </div>
     </div>
 
@@ -143,6 +143,7 @@
     <@hst.include ref="footer"/>
 </div>
 
+<@hst.headContributions categoryIncludes="htmlBodyEnd" xhtml=true/>
 </body>
 </html>
 
