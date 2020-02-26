@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/myproject/hst:workspace/hst:containers/productlist/main:
+  jcr:primaryType: hst:containercomponent
+  hst:label: Product List Main
+  hst:lastmodified: 2020-02-26T15:32:42.884-06:00
+  hst:xtype: hst.vbox

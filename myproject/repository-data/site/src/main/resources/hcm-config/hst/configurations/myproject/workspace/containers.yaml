@@ -57,3 +57,6 @@ definitions:
           jcr:primaryType: hst:containercomponent
           hst:label: Content Page Main
           hst:xtype: hst.vbox
+      /productlist:
+        .meta:residual-child-node-category: content
+        jcr:primaryType: hst:containercomponentfolder
