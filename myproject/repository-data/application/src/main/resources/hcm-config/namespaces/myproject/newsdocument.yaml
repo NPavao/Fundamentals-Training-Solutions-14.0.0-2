@@ -11,7 +11,7 @@ definitions:
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['hipposysedit:remodel', 'mix:referenceable']
-          jcr:uuid: 0c2d13fd-689a-434a-b118-6e974727b498
+          jcr:uuid: 01e05871-d7b0-4819-adaf-121495fc315c
           hipposysedit:node: true
           hipposysedit:supertype: ['myproject:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
           hipposysedit:uri: http://www.myproject.com/myproject/nt/1.0
@@ -80,12 +80,20 @@ definitions:
             hipposysedit:path: myproject:location
             hipposysedit:primary: false
             hipposysedit:type: String
+          /geolocation:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: myproject:geolocation
+            hipposysedit:primary: false
+            hipposysedit:type: myproject:geolocation
       /hipposysedit:prototypes:
         jcr:primaryType: hipposysedit:prototypeset
         /hipposysedit:prototype:
           jcr:primaryType: myproject:newsdocument
           jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 5fdd94ca-ad02-491d-97b6-9daaca39458d
+          jcr:uuid: 74a371d4-e204-4d01-9c16-560b5b84bfb5
           hippo:related___pathreference: []
           hippostd:holder: holder
           hippostd:state: draft
@@ -99,15 +107,22 @@ definitions:
           myproject:documenttype: news
           myproject:introduction: ''
           myproject:title: ''
+          myproject:author: ''
+          myproject:location: ''
+          myproject:source: ''
           /myproject:content:
             jcr:primaryType: hippostd:html
-            hippostd:content: <html><body></body></html>
+            hippostd:content: ''
           /myproject:image:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
+          /myproject:geolocation:
+            jcr:primaryType: myproject:geolocation
+            myproject:latitude: ''
+            myproject:longitude: ''
       /editor:templates:
         jcr:primaryType: editor:templateset
         /_default_:
@@ -186,5 +201,14 @@ definitions:
             field: image
             plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
             wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /geolocation:
+            jcr:primaryType: frontend:plugin
+            caption: Geolocation
+            field: geolocation
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            hint: ''
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig
