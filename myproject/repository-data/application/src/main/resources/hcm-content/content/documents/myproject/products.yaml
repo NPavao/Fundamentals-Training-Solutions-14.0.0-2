@@ -1,0 +1,88 @@
+/content/documents/myproject/products:
+  .meta:order-before: configuration
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 08f07206-7de0-4e27-b125-1b80e3a2a976
+  hippo:name: Products
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 3983e584-b1ed-43c5-83d9-ad51bef4de0b
+  hippotranslation:locale: en
+  /initial-product-document-example:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 26ec6d5a-7928-4bea-b7e6-e6f3c25638d8
+    hippo:name: Initial Product Document Example
+    hippo:versionHistory: de1e8f70-533b-46c2-8ef7-333992ebe9fe
+    /initial-product-document-example[1]:
+      jcr:primaryType: myproject:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 73cfec2b-7956-4138-a7d7-f646c2eede94
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-02-25T23:56:09.691-06:00
+      hippostdpubwf:lastModificationDate: 2020-02-26T00:06:24.112-06:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 286f8d0d-5fea-4340-9381-75530608717d
+      hippotranslation:locale: en
+      myproject:categories: [food, soalr]
+      myproject:instock: 13
+      myproject:introduction: Product Introduction
+      myproject:price: 99.99
+      myproject:rating: 4.2
+      myproject:title: New Product
+      /myproject:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <ul>
+           <li>Very <strong><em>descriptive</em></strong> description!!</li>
+          </ul>
+    /initial-product-document-example[2]:
+      jcr:primaryType: myproject:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 7fd69abb-cebc-4b81-9206-0e3f8bc65d16
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-02-25T23:56:09.691-06:00
+      hippostdpubwf:lastModificationDate: 2020-02-26T00:02:39.456-06:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 286f8d0d-5fea-4340-9381-75530608717d
+      hippotranslation:locale: en
+      myproject:categories: [food, soalr]
+      myproject:instock: 13
+      myproject:introduction: Product Introduction
+      myproject:price: 99.99
+      myproject:rating: 4.2
+      myproject:title: New Product
+      /myproject:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <ul>
+           <li>Very <strong><em>descriptive</em></strong> description!!</li>
+          </ul>
+    /initial-product-document-example[3]:
+      jcr:primaryType: myproject:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 370a195c-6436-40f7-8fe0-6ed71b2562e8
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-02-25T23:56:09.691-06:00
+      hippostdpubwf:lastModificationDate: 2020-02-26T00:02:39.456-06:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2020-02-26T00:02:41.823-06:00
+      hippotranslation:id: 286f8d0d-5fea-4340-9381-75530608717d
+      hippotranslation:locale: en
+      myproject:categories: [food, soalr]
+      myproject:instock: 13
+      myproject:introduction: Product Introduction
+      myproject:price: 99.99
+      myproject:rating: 4.2
+      myproject:title: New Product
+      /myproject:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <ul>
+           <li>Very <strong><em>descriptive</em></strong> description!!</li>
+          </ul>
