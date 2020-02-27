@@ -17,3 +17,5 @@ definitions:
             jcr:primaryType: hst:mount
             hst:mountpoint: /hst:myproject/hst:sites/mijnproject
             hst:locale: nl_NL
+    /hst:hst/hst:hosts:
+      hst:defaultresourcebundleid: essentials.pagination
