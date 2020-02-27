@@ -24,6 +24,12 @@
       <artifactId>hst-javacomponents-feature</artifactId>
       <version>${training.features.version}</version>
     </dependency>
+    <!--Training Module 6-->
+    <dependency>
+      <groupId>org.onehippo.cms7.training.essentials</groupId>
+      <artifactId>new-channel-content-feature</artifactId>
+      <version>${training.features.version}</version>
+    </dependency>
 
     <dependency>
       <groupId>org.onehippo.cms7</groupId>
