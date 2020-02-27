@@ -1,6 +1,0 @@
-/hst:hst/hst:configurations/myproject/hst:workspace/hst:containers/homepage/main/openstreetmap:
-  jcr:primaryType: hst:containeritemcomponent
-  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsOpenStreetMapComponent
-  hst:iconpath: images/essentials/catalog-component-icons/openstreetmap.svg
-  hst:label: OpenStreetMap
-  hst:template: essentials-openstreetmap

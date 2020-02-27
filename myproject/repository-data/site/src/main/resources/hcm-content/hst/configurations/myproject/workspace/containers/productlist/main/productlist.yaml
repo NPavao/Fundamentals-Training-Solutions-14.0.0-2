@@ -1,5 +1,4 @@
 /hst:hst/hst:configurations/myproject/hst:workspace/hst:containers/productlist/main/productlist:
-  .meta:order-before: banner
   jcr:primaryType: hst:containeritemcomponent
   hst:componentclassname: org.example.components.ProductListComponent
   hst:iconpath: images/catalog-component-icons/product-list.png
