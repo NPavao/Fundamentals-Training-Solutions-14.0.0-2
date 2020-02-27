@@ -18,6 +18,13 @@
       <artifactId>new-content-section-feature</artifactId>
       <version>${training.features.version}</version>
     </dependency>
+    <!--Training Module 5-->
+    <dependency>
+      <groupId>org.onehippo.cms7.training.essentials</groupId>
+      <artifactId>hst-javacomponents-feature</artifactId>
+      <version>${training.features.version}</version>
+    </dependency>
+
     <dependency>
       <groupId>org.onehippo.cms7</groupId>
       <artifactId>hippo-essentials-dashboard</artifactId>
